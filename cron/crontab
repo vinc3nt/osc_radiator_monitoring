@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+0 2 * * *  root /usr/bin/python /root/radiator-monitor/cron/cron_sar.py >> /var/log/radiator-monitor/cron/cron_sar.log 2>&1
+5 2 * * *  root /usr/bin/python /root/radiator-monitor/cron/cron_auth.py >> /var/log/radiator-monitor/cron/cron_auth.log 2>&1
+10 2 * * *  root /usr/bin/python /root/radiator-monitor/cron/cron_acct.py >> /var/log/radiator-monitor/cron/cron_acct.log 2>&1
