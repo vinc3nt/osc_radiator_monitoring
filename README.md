@@ -1,4 +1,4 @@
 osc_radiator_monitoring
 =======================
 
-draft of a radius monitoring system
+draft of a osc radiator monitoring system
