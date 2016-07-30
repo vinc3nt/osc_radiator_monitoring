@@ -1,4 +1,4 @@
 osc_radiator_monitoring
 =======================
 
-draft of a osc radiator monitoring system
+Python script for generating OSC Radiator authentication reports
